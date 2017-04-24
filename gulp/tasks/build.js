@@ -15,6 +15,7 @@ gulp.task('build', function(callback) {
               'clean',
               'iconfonts',
               'copyStaticFiles',
+              'fileinclude',
               ['sass', 'webpack'],
               callback);
 });
