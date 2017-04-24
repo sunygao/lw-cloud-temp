@@ -25,7 +25,7 @@ Public directory contains static assets and generated html
 	* runs css and webpack watch tasks in app/ directory
 - Point your browser to http://localhost:8080
 
-### Run sass watch ONLY:
+### If you don't want to use webpack dev server, just run gulp watch to generate the sass and html:
 - $ gulp watch
 
 
