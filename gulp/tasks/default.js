@@ -9,7 +9,8 @@
 gulp.task('default', [
   'set-env-dev',
   'iconfonts',
-  'sass',  // this gets run by watch asap.
+  'sass',  
+  'fileinclude',
   'watch',
   'webpack-dev-server'
 ], function() {
