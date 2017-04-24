@@ -7892,8 +7892,12 @@ button.close {
   text-transform: none;
 }
 
-.icon-team:before {
+.icon-search:before {
   content: "\E001";
+}
+
+.icon-team:before {
+  content: "\E002";
 }
 
 html {
