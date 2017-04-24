@@ -7,6 +7,7 @@
 @import "bootstrap";
 
 @import "core/variables";
+@import "core/typography";
 @import "core/zindexes";
 @import "core/fonts";
 @import "core/iconfont";
@@ -16,3 +17,6 @@
 
 @import "views/components/nav";
 @import "views/components/buttons";
+
+// This file is for the style guide page only
+@import "views/styleguide";

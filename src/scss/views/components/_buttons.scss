@@ -15,7 +15,9 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 	text-transform: uppercase;
-	transition: background 0.25s ease-in-out;
+	transition-property: background, border, color;
+	transition-duration: .25s;
+	transition-timing-function: ease-in-out;
 	text-decoration: none !important;
 
 	&.small {
@@ -37,9 +39,12 @@
 
 	&.center {
 		display: block;
-	    max-width: 220px;
+	    max-width: 350px;
 	    margin-left: auto;
-    	margin-right: auto;
+	    margin-right: auto;
+	    white-space: inherit;
+	    line-height: normal;
+	    height: auto;
 	}
 
 	&:focus,
@@ -49,7 +54,7 @@
 }
 
 @mixin btn_primary_hover() {
-	background: darken($teal, 8%);
+	background: $teal50;
 	color: #fff;
 }
 
@@ -71,8 +76,8 @@
 }
 
 @mixin btn_secondary_hover() {
-	background: $teal;
-	color: #fff;
+	color: $teal50;
+	border-color: $teal50;
 }
 
 .btn_secondary {

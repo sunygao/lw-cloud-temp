@@ -1,0 +1,12 @@
+.style-guide {
+	
+	article {
+		margin-top: 60px;
+		margin-bottom: 60px;
+		padding-bottom: 60px;
+
+		&:not(:last-child) {
+			border-bottom: 1px solid #ccc;
+		}
+	}	
+}
