@@ -1,0 +1,94 @@
+// ========================================= //
+//  Buttons
+// ========================================= //
+
+.btn {
+	border-radius: 2px;
+	height: 56px;
+	padding: 20px 35px;
+	display: inline-block;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	letter-spacing: 2px;
+	line-height: 14px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	transition: background 0.25s ease-in-out;
+	text-decoration: none !important;
+
+	&.small {
+		font-size: 12px;
+		padding: 14px 32px;
+		height: 40px;
+		line-height: 12px;
+
+		&.center {
+			max-width: 180px;
+		}
+	}
+
+	&.block {
+		display: block;
+		margin: 0 auto;
+		max-width: 90%;
+	}
+
+	&.center {
+		display: block;
+	    max-width: 220px;
+	    margin-left: auto;
+    	margin-right: auto;
+	}
+
+	&:focus,
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+@mixin btn_primary_hover() {
+	background: darken($teal, 8%);
+	color: #fff;
+}
+
+.btn_primary {
+	@extend .btn;
+
+	background: $teal;
+	border-radius: 2px;
+	color: #fff;
+
+	&.small {
+		@extend .btn.small;
+	}
+
+	&:focus,
+	&:hover {
+		@include btn_primary_hover();
+	}
+}
+
+@mixin btn_secondary_hover() {
+	background: $teal;
+	color: #fff;
+}
+
+.btn_secondary {
+	@extend .btn;
+
+	border: 1px solid $teal;
+	background: $white;	
+	color: $teal;
+
+	&.small {
+		@extend .btn.small;
+	}
+
+	&:focus,
+	&:hover {
+		@include btn_secondary_hover();
+	}
+	
+}
