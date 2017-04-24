@@ -1,0 +1,17 @@
+//----- Core
+
+//----- Variables
+//import variables before bootstrap
+//variables added to core/variables will override bootstrap variables;
+@import "core/variables"; 
+@import "bootstrap";
+
+@import "core/variables";
+@import "core/zindexes";
+@import "core/fonts";
+@import "core/iconfont";
+@import "core/mixins";
+@import "core/animations";
+@import "core/layout";
+
+@import "views/components/nav";

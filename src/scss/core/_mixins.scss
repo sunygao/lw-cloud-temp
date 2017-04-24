@@ -1,0 +1,20 @@
+//---Grid
+@mixin span($num, $gutter_pc, $gutter_px, $max_columns) {
+    $one_col: (100% - ($gutter_pc * ($max_columns - 1))) / $max_columns;
+    width:($one_col * $num) + ($gutter_pc * ($num - 1));
+    @include box-sizing(border-box);
+    margin-left: $gutter_pc;
+}
+
+//1 based
+@mixin at_col($num, $gutter_pc, $gutter_px, $max_columns) {
+    $one_col: (100% - ($gutter_pc * ($max_columns - 1))) / $max_columns;
+    margin-left: ($one_col * $num) + ($gutter_pc * ($num - 1));
+}
+
+//column is absolutely positioned
+//0 based
+@mixin at_col_abs($num, $gutter_pc, $gutter_px, $max_columns) {
+    $one_col: (100% - ($gutter_pc * ($max_columns - 1))) / $max_columns;
+    left: ($one_col * $num) + ($gutter_pc * ($num));
+}

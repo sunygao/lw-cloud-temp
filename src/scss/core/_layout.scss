@@ -1,0 +1,26 @@
+//---Base font-size of 62.5% to have the convenience of sizing rems in a way that is similar to using px. 14px = 1.4rem
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body {
+    background: #fff;
+    display: flex;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+    &.no-scroll {
+        height: 100%;
+        overflow: hidden;
+    }
+}

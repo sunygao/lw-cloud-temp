@@ -1,0 +1,51 @@
+{
+  "public" : "public/",
+  "src" : {
+    "sass" : {
+    "files" : [
+        "src/scss/*.scss", 
+        "src/scss/**/*.scss", 
+        "src/scss/**/**/*.scss"
+      ]
+    },
+    "js" : {
+      "files" : "src/scripts/**/*"
+    },
+    "html" : {
+      "files" : [
+        "src/html/*.html",
+        "src/html/**/*.html",
+        "src/html/**/**/*.html"
+      ]
+    }
+  },
+  "staticSrc" : [
+    "public/assets/images/**/*",
+    "public/assets/video/**/*", 
+    "public/assets/fonts/iconfont/*", 
+    "public/assets/fonts/text/*", 
+    "public/*.html", 
+    "public/**/*.html",
+    "public/*.ico"
+  ],
+  "deploy" : {
+    "css" : {
+      "path" : "dist/assets/stylesheets"
+    },
+    "js" : {
+      "path" : "dist/assets/javascripts"
+    }
+  },
+  "development" : {
+    "css" : {
+      "path" : "public/assets/stylesheets"
+    }
+  },
+  "iconfont": {
+    "srcSVG": "src/fonts/svg-sprites/*.svg",
+    "cssTempSrc" : "src/scss/core/template/_iconfont.css",
+    "sassDest": "../../../../src/scss/core/_iconfont.scss",
+    "fontPath": "../fonts/iconfont/",
+    "destFontPath": "public/assets/fonts/iconfont/"
+  }
+}

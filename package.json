@@ -1,0 +1,38 @@
+{
+  "name": "lw-cloud",
+  "title": "LW Cloud",
+  "author": "",
+  "description": "",
+  "version": "0.1.0",
+  "scripts": {
+    "start": ""
+  },
+  "dependencies": {
+    "gulp-install": "^0.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-es2015-classes": "^6.9.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "bootstrap-sass": "^3.3.7",
+    "core-js": "^2.4.0",
+    "del": "2.2.0",
+    "gulp": "",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-file-include": "^1.1.0",
+    "gulp-iconfont": "^1.0.0",
+    "gulp-iconfont-css": "0.0.9",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "2.0.0",
+    "gulp-util": "3.0.4",
+    "install": "^0.8.8",
+    "lodash": "^4.13.1",
+    "markdown": "^0.5.0",
+    "npm": "^4.5.0",
+    "run-sequence": "^1.2.2",
+    "webpack": "1.13.1",
+    "webpack-dev-server": "1.14.1"
+  }
+}
