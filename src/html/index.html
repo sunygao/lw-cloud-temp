@@ -14,10 +14,10 @@
 
 <body>
 	
-	<section class="style-guide container">
+	<section class="style-guide">
 		@@include('components/nav-logged-in.html')
 
-		<article class="buttons">		
+		<article class="buttons container">		
 			<h1>Markup and Classes for Buttons</h1>
 
 			<div class="row">
@@ -62,7 +62,7 @@
 
 		</article>
 
-		<article class="typography">		
+		<article class="typography container">		
 
 			<div class="row">
 				<div class="col-xs-12 col-md-6">
@@ -109,7 +109,7 @@
 
 		</article>
 
-		<article class="modules">
+		<article class="modules container">
 
 			<div class="row">
 				<div class="col-xs-12 col-md-6">
@@ -117,8 +117,91 @@
 						<header><p class="lead">Module Title</p><a href="" class="btn_secondary small">Small Button</a></header>
 						<div class="module-item">
 							<p class="sub-heading">Sub Heading</p>
-							<span class="icon icon-visa"></span>
+							
+
+							<div class="media"> 
+								<div class="media-left"> 
+									<div class="media-icon">
+										<div class="icon icon-visa"></div>
+									</div>
+								</div>
+								<div class="media-body"> 
+									<p>Definery<br>
+									123 Jones Street<br>
+									San Francisco, CA 12345</p>
+								</div> 
+								<div class="media-right"> 
+									<div class="media-button">
+										<button class="btn_secondary small">Manage</button>
+									</div>
+								</div>
+							</div>
 						</div>
+						<div class="module-item">
+							<p class="sub-heading">Sub Heading</p>
+							
+
+							<div class="media"> 
+								<div class="media-left"> 
+									<div class="media-icon">
+										<div class="icon icon-link"></div>
+									</div>
+								</div>
+								<div class="media-body"> 
+									<p>Definery<br>
+									123 Jones Street<br>
+									San Francisco, CA 12345</p>
+								</div> 
+								<div class="media-right"> 
+									<div class="media-button">
+										<button class="btn_secondary small">Manage</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="module-item">
+							<p class="sub-heading">Sub Heading</p>
+							
+
+							<div class="media"> 
+								<div class="media-left"> 
+									<div class="media-icon">
+										<div class="icon icon-user"></div>
+									</div>
+								</div>
+								<div class="media-body"> 
+									<p>Definery<br>
+									123 Jones Street<br>
+									San Francisco, CA 12345</p>
+								</div> 
+								<div class="media-right"> 
+									<div class="media-button">
+										<button class="btn_secondary small">Manage</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<footer>
+							<nav aria-label="Page navigation" id="pagination">
+								<ul class="pagination">
+							        <li>
+										<a href="#" class="btn_secondary small btn prev disabled" aria-label="Previous">
+											<span aria-hidden="true">Prev</span>
+										</a>
+									</li>
+									<li class="active"><a href="#">1</a></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+									<li><a href="#">5</a></li>
+									<li>
+										<a href="#" class="btn_secondary small btn next" aria-label="Next">
+											<span aria-hidden="true">Next</span>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</footer>
 					</div>
 				</div>
 				<div class="col-xs-12 col-md-6">

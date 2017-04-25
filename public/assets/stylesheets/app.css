@@ -8119,6 +8119,11 @@ body.no-scroll {
   border-radius: 6px;
 }
 
+.module [class^="btn_"] {
+  height: 32px;
+  padding: 10px 20px;
+}
+
 .module header {
   padding: 17px 30px;
   height: 60px;
@@ -8139,12 +8144,114 @@ body.no-scroll {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
-  padding-left: 20px;
-  padding-right: 20px;
+}
+
+.module footer {
+  padding: 12px 30px;
+  height: 100px;
+  border-top: 1px solid #C1CCD7;
 }
 
 .module-item {
   padding: 17px 30px;
+}
+
+.module-item:not(:last-of-type) {
+  border-bottom: 1px solid #ccc;
+}
+
+.module-item .media-icon {
+  width: 64px;
+  height: 64px;
+}
+
+.module-item .media-icon .icon {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+}
+
+.module-item .media-icon .icon:before {
+  font-size: 46px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.module-item .media-button {
+  width: 20%;
+  height: 64px;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+  border: none;
+}
+
+.pagination {
+  display: block;
+  text-align: center;
+  position: relative;
+}
+
+.pagination [class^="btn_"] {
+  position: absolute;
+  top: 0;
+  margin: 0;
+}
+
+.pagination [class^="btn_"].prev {
+  left: 0;
+}
+
+.pagination [class^="btn_"].next {
+  right: 0;
+}
+
+.pagination [class^="btn_"].disabled {
+  border-color: #C1CCD7;
+  color: #C1CCD7;
+}
+
+.pagination li {
+  display: inline-block;
+}
+
+.pagination li.active a {
+  color: #0D1A31;
+  background: none;
+}
+
+.pagination li.active a.focus, .pagination li.active a.focus, .pagination li.active a:hover {
+  background: none;
+  color: #0D1A31;
+}
+
+.pagination li a {
+  font-size: 14px;
+  color: #14C6BC;
+  font-weight: 400;
+}
+
+.pagination li a:not(.btn):not(.btn_primary):not(.btn_secondary) {
+  border: none;
+}
+
+.pagination li a.btn, .pagination li a.btn_primary, .pagination li a.btn_secondary {
+  border: 1px solid #14C6BC;
+}
+
+.pagination li a span {
+  border: none;
+}
+
+.pagination li a:hover {
+  text-decoration: none !important;
 }
 
 .style-guide article {

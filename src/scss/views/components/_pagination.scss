@@ -1,0 +1,69 @@
+.pagination > li > a, 
+.pagination > li > span {
+	border: none;
+}
+
+.pagination {
+	display: block;
+	text-align: center;
+	position: relative;
+
+	[class^="btn_"] {
+		position: absolute;
+	    top: 0;
+	    margin: 0;
+	    
+	    &.prev {
+	    	left: 0;
+	    }
+
+	    &.next {
+	    	right: 0;
+	    }
+
+	    &.disabled {
+	    	border-color: $grey-border;
+	    	color: $grey-border;
+	    }
+	}
+
+	li {
+		display: inline-block;
+
+		&.active {
+			a {
+				color: #0D1A31;
+				background: none;
+
+				&.focus,
+				&.focus,
+				&:hover {
+					background: none;
+					color: #0D1A31;
+				}
+			}
+		}
+
+		a {
+			&:not(.btn) {
+				border: none;
+			}
+
+			&.btn {
+				border: 1px solid $teal;
+			}
+
+			font-size: 14px;
+			color: $teal;
+			font-weight: 400;
+
+			span {
+				border: none;
+			}
+
+			&:hover {
+				text-decoration: none !important;
+			}
+		}
+	}
+}
