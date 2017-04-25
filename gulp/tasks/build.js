@@ -14,7 +14,7 @@ gulp.task('build', function(callback) {
   runSequence('set-env-prod',
               'clean',
               'iconfonts',
-              'fileinclude',
+              'generateHtml',
               'copyStaticFiles',
               ['sass', 'webpack'],
               callback);

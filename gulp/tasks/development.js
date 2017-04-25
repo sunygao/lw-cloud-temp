@@ -89,7 +89,7 @@ gulp.task('sass', function() {
  */
 gulp.task('watch', function() {
   gulp.watch(config.src.sass.files, ['sass']);
-  gulp.watch(config.src.html.files, ['fileinclude']);
+  gulp.watch(config.src.html.files, ['generateHtml']);
 
 //  gulp.watch(config.src.js.files, ['webpack']);
 
@@ -171,6 +171,31 @@ gulp.task('clean', function () {
   ]);
 });
 
+
+
+gulp.task('generateHtml', function(callback) {
+  runSequence(
+    'cleanHtml',
+    'fileinclude',
+    callback);
+});
+
+/*
+ * Clean out old html files
+ *
+ */
+gulp.task('cleanHtml', function () {
+  return del([
+    config.public + '*.html',
+    config.public + '**/*.html',
+    config.public + '**/*.html'
+  ]);
+});
+
+/*
+ * generate html with includes
+ *
+ */
 gulp.task('fileinclude', function() {
   gulp.src(config.src.html.files)
     .pipe(fileinclude({
