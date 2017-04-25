@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="48px" viewBox="0 0 38 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>files</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ill/dark/reporting" transform="translate(-21.000000, -16.000000)" fill-rule="nonzero" fill="#0B3F73">
+            <g id="files" transform="translate(21.000000, 16.000000)">
+                <path d="M8,46 L25,46 C31.0477153,46 36,41.0477153 36,35 L36,8 L8,8 L8,46 Z M38,6 L38,35 C38,42.1522847 32.1522847,48 25,48 L6,48 L6,6 L38,6 Z" id="Shape"></path>
+                <polygon id="Shape" points="15 20 29 20 29 18 15 18"></polygon>
+                <polygon id="Shape" points="15 28 29 28 29 26 15 26"></polygon>
+                <polygon id="Shape" points="15 36 25.5 36 25.5 34 15 34"></polygon>
+                <polygon id="Shape" points="2 2 30 2 30 7 32 7 32 0 0 0 0 42 7 42 7 40 2 40"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

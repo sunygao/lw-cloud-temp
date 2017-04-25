@@ -7919,11 +7919,15 @@ p.lead {
   line-height: 26px;
 }
 
-.eyebrow {
+.eyebrow,
+.sub-heading {
   font-size: 0.750em;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-size: 0.750em;
+}
+
+.eyebrow {
   margin-bottom: -10px;
 }
 
@@ -7945,12 +7949,56 @@ p.lead {
   text-transform: none;
 }
 
-.icon-search:before {
+.icon-cloud:before {
   content: "\E001";
 }
 
-.icon-team:before {
+.icon-files:before {
   content: "\E002";
+}
+
+.icon-info:before {
+  content: "\E003";
+}
+
+.icon-lightbulb:before {
+  content: "\E004";
+}
+
+.icon-link:before {
+  content: "\E005";
+}
+
+.icon-money:before {
+  content: "\E006";
+}
+
+.icon-search:before {
+  content: "\E007";
+}
+
+.icon-start:before {
+  content: "\E008";
+}
+
+.icon-support:before {
+  content: "\E009";
+}
+
+.icon-team:before {
+  content: "\E00A";
+}
+
+.icon-tools:before {
+  content: "\E00B";
+}
+
+.icon-user:before {
+  content: "\E00C";
+}
+
+.icon-visa:before {
+  content: "\E00D";
 }
 
 html {
@@ -8075,6 +8123,7 @@ body.no-scroll {
   padding: 17px 30px;
   height: 60px;
   border-bottom: 1px solid #C1CCD7;
+  position: relative;
 }
 
 .module header .lead {
@@ -8090,6 +8139,12 @@ body.no-scroll {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.module-item {
+  padding: 17px 30px;
 }
 
 .style-guide article {
