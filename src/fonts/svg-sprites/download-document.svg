@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/download-document</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/download-document" stroke="#14C6BC" stroke-width="2">
+            <g id="file-download" transform="translate(4.000000, 1.000000)">
+                <path d="M0,0 L16.2962963,0 L16.2962963,0 L16.2962963,16.2608696 C16.2962963,19.4173913 13.708061,22 10.5446623,22 L0,22 L0,22 L0,0 L0,0 Z" id="Shape"></path>
+                <path d="M8.14814815,6.33333333 L8.14814815,14.8518519" id="Shape"></path>
+                <polyline id="Shape" points="4.88888889 11.5925926 8.14814815 14.8518519 11.4074074 11.5925926"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/checkmark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/checkmark">
+            <rect id="Rectangle-3" x="0" y="0" width="24" height="24"></rect>
+            <path d="M13.6966202,15.6604202 L8.9933822,15.6604202 C8.44895091,15.6604202 8,16.1090237 8,16.6624042 L8,17.9980159 C8,18.5496094 8.44475236,19 8.9933822,19 L15.8156307,19 C16.1354837,19 16.4223811,18.845162 16.6046467,18.6052068 C16.8460412,18.4209484 17,18.1299281 17,17.8024586 L17,2.00863395 C17,1.44027664 16.5482229,1 15.9909276,1 L14.7056926,1 C14.1421287,1 13.6966202,1.4515808 13.6966202,2.00863395 L13.6966202,15.6604202 Z" id="Combined-Shape" fill="#14C6BC" transform="translate(12.500000, 10.000000) rotate(45.000000) translate(-12.500000, -10.000000) "></path>
+        </g>
+    </g>
+</svg>

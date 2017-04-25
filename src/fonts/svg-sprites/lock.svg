@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="25px" viewBox="0 0 18 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/lock</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Visual-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.3.0-Customize-Domain" transform="translate(-573.000000, -337.000000)">
+            <g id="card" transform="translate(480.000000, 213.000000)">
+                <g id="account-access-input-bar-success" transform="translate(60.000000, 107.000000)">
+                    <g id="icon/lock" transform="translate(30.000000, 17.000000)">
+                        <rect id="Rectangle-3" x="0" y="0" width="24" height="24"></rect>
+                        <g id="lock" stroke-width="1" fill-rule="evenodd" transform="translate(4.000000, 1.000000)" stroke="#7D8B99">
+                            <path d="M12.2292858,22.1700001 L3.76285716,22.1700001 C1.68468854,22.1700001 4.17761066e-16,20.4853115 0,18.4071429 L0,9 L15.9921429,9 L15.9921429,18.4071429 C15.9921429,20.4853115 14.3074544,22.1700001 12.2292858,22.1700001 Z" id="Shape" stroke-width="2"></path>
+                            <circle id="Oval" fill="#7D8B99" fill-rule="nonzero" cx="8.25" cy="15.25" r="1.25"></circle>
+                            <path d="M3,8.82900038 L3,4.90500021 C3,2.1960434 5.1960434,4.35651533e-16 7.90500021,0 L7.90500021,0 C10.613957,1.08912883e-16 12.8100004,2.1960434 12.8100004,4.90500021 L12.8100004,8.82900038" id="Shape" stroke-width="2"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

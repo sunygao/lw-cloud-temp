@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>ill/dark/URL</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ill/dark/URL">
+            <g id="Group">
+                <rect id="Rectangle" x="0" y="0" width="80" height="80"></rect>
+                <g id="Group-2" transform="translate(17.000000, 16.000000)" stroke="#0B3F73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18.84,26.88 C15.9813993,23.0683639 16.3251375,17.742544 19.65,14.33 L30,3.79 C31.7410974,2.00315271 34.1301566,0.995375667 36.625,0.995375667 C39.1198434,0.995375667 41.5089026,2.00315271 43.25,3.79 L43.25,3.79 C46.909677,7.54204643 46.909677,13.5279536 43.25,17.28 L36.33,24.77" id="Shape"></path>
+                    <path d="M26,20.55 L26,20.55 C29.6337419,24.2970463 29.6337419,30.2529537 26,34 L16,44.21 C14.2589026,45.9968473 11.8698434,47.0046243 9.375,47.0046243 C6.88015661,47.0046243 4.49109744,45.9968473 2.75,44.21 L2.75,44.21 C-0.909677036,40.4579536 -0.909677036,34.4720464 2.75,30.72 L9.41,23.72" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

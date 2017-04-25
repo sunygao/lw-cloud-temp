@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="16px" viewBox="0 0 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-chevron-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="module/enterprise-product-instance" transform="translate(-1122.000000, -63.000000)" stroke-width="2" stroke="#14C6BC">
+            <g id="peeps-and-perms">
+                <g transform="translate(830.000000, 40.000000)">
+                    <polyline id="icon-chevron-right" points="293 38 300 31 293 24"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
