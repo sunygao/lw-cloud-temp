@@ -1,22 +1,13 @@
 <!DOCTYPE html><!--[if lte IE 9]>
 <html lang="en" class="ie-old ie"></html><![endif]-->
 <html lang="en">
-<head><title>Project boilerplate</title>
-	<meta charset="utf-8"/>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
-	<meta name="description" content=""/>
-	<meta name="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<link rel="stylesheet" href="assets/stylesheets/app.css"/>
 
-</head>
+@@include('partials/head.html')
 
 <body>
+	@@include('components/nav-logged-in.html')
 
 	<main class="style-guide">
-		@@include('components/nav-logged-in.html')
-
 		<section class="buttons container">		
 
 			<h1>Markup and Classes for Buttons</h1>
@@ -211,16 +202,9 @@
 			</div>
 
 		</section>
-
-		
-
-		
-
-		
-
 	</main>
 
 
-	<script src="assets/javascripts/main.js"></script>
+	@@include('partials/scripts.html')
 
 </body>
