@@ -19,6 +19,8 @@
 @import "views/components/buttons";
 @import "views/components/modules";
 @import "views/components/pagination";
+@import "views/components/pagination";
+@import "views/components/overlay";
 
 // This file is for the style guide page only
 @import "views/styleguide";
@@ -29,3 +31,15 @@
 @import "views/pages/page-signup-confirm-billing";
 @import "views/pages/page-signup-customize-domain";
 @import "views/pages/page-signup-select-plan";
+@import "views/pages/page-dashboard-account-billing";
+@import "views/pages/page-dashboard-account-owners";
+@import "views/pages/page-dashboard-admin";
+@import "views/pages/page-dashboard-owner";
+@import "views/pages/page-dashboard-people-permissions";
+@import "views/pages/page-dashboard-saml-config";
+@import "views/pages/page-dashboard-trial";
+
+//----- Overlays
+@import "views/overlays/overlay-profile";
+@import "views/overlays/overlay-add-people";
+
