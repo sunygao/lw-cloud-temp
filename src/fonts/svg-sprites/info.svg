@@ -9,11 +9,9 @@
             <g id="Group">
                 <rect id="Rectangle" x="0" y="0" width="80" height="80"></rect>
             </g>
-            <circle id="Oval" stroke="#0B3F73" stroke-width="2" cx="40" cy="40" r="23"></circle>
-            <g id="Group-2" transform="translate(40.000000, 39.000000) rotate(-180.000000) translate(-40.000000, -39.000000) translate(38.000000, 30.000000)">
-                <path d="M2,0.0434782609 L2,11" id="Shape" stroke="#0B3F73" stroke-width="2"></path>
-                <ellipse id="Oval" fill="#0B3F73" fill-rule="nonzero" cx="2" cy="15.6956522" rx="1.57894737" ry="1.56521739"></ellipse>
-            </g>
+            <path d="M40,64 C26.745166,64 16,53.254834 16,40 C16,26.745166 26.745166,16 40,16 C53.254834,16 64,26.745166 64,40 C64,53.254834 53.254834,64 40,64 Z M40,62 C52.1502645,62 62,52.1502645 62,40 C62,27.8497355 52.1502645,18 40,18 C27.8497355,18 18,27.8497355 18,40 C18,52.1502645 27.8497355,62 40,62 Z" id="Oval" fill="#0B3F73" fill-rule="nonzero"></path>
+            <polygon id="Shape" fill="#0B3F73" fill-rule="nonzero" points="41 47.9565217 41 37 39 37 39 47.9565217"></polygon>
+            <ellipse id="Oval" fill="#0B3F73" fill-rule="nonzero" transform="translate(40.000000, 32.304348) rotate(-180.000000) translate(-40.000000, -32.304348) " cx="40" cy="32.3043478" rx="1.57894737" ry="1.56521739"></ellipse>
         </g>
     </g>
 </svg>

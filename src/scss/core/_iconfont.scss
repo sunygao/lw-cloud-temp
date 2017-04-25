@@ -20,15 +20,15 @@
 }
 
 
-.icon-URL:before {
+.icon-answers:before {
 	content: "\E001";
 }
 
-.icon-answers:before {
+.icon-arrowleft:before {
 	content: "\E002";
 }
 
-.icon-arrowleft:before {
+.icon-cc-visa:before {
 	content: "\E003";
 }
 
@@ -124,14 +124,18 @@
 	content: "\E01A";
 }
 
-.icon-user:before {
+.icon-url:before {
 	content: "\E01B";
 }
 
-.icon-video:before {
+.icon-user:before {
 	content: "\E01C";
 }
 
-.icon-visa:before {
+.icon-video:before {
 	content: "\E01D";
+}
+
+.icon-visa:before {
+	content: "\E01E";
 }
