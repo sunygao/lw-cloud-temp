@@ -8254,12 +8254,16 @@ body.no-scroll {
   text-decoration: none !important;
 }
 
-.style-guide article {
+.style-guide {
+  width: 100%;
+}
+
+.style-guide section {
   margin-top: 60px;
   margin-bottom: 60px;
   padding-bottom: 60px;
 }
 
-.style-guide article:not(:last-child) {
+.style-guide section:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
