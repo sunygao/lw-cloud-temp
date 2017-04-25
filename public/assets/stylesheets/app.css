@@ -8019,10 +8019,6 @@ html {
 
 body {
   background: #fff;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -8031,6 +8027,136 @@ body {
 body.no-scroll {
   height: 100%;
   overflow: hidden;
+}
+
+.main-nav.logged-in {
+  background: #fff;
+  height: 100px;
+  border-bottom: 1px solid #C1CCD7;
+}
+
+.main-nav.logged-in .nav-left {
+  float: left;
+}
+
+.main-nav.logged-in h1 {
+  width: 192px;
+  margin-top: 34px;
+}
+
+.main-nav.logged-in h1 img {
+  display: block;
+  width: 100%;
+}
+
+.main-nav.logged-in .nav-right {
+  float: right;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  max-width: 350px;
+  margin-top: 28px;
+}
+
+.main-nav.logged-in .input-group {
+  width: 150px;
+}
+
+.main-nav.logged-in .input-group .icon {
+  position: absolute;
+  z-index: 2;
+  font-size: 17px;
+  top: 15px;
+  left: 14px;
+}
+
+.main-nav.logged-in .input-group input {
+  border-radius: 2px;
+  padding-left: 45px;
+  z-index: 1;
+  height: 45px;
+}
+
+.main-nav.logged-in .divider {
+  margin: 0 30px;
+  background: #C1CCD7;
+  width: 1px;
+  display: block;
+}
+
+.main-nav.logged-in .user button {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  display: block;
+}
+
+.main-nav.logged-in .user .avatar {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  overflow: hidden;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.main-nav.logged-in .user .avatar img {
+  display: block;
+  width: 100%;
+}
+
+.main-nav.logged-in .user .username {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-nav.logged-in .dropdown-menu {
+  padding: 0;
+  border-color: #C1CCD7;
+  margin-top: 15px;
+}
+
+.main-nav.logged-in .dropdown-menu:before, .main-nav.logged-in .dropdown-menu:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  color: #fff;
+  position: absolute;
+  border-bottom: 10px dashed;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  top: -10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.main-nav.logged-in .dropdown-menu:before {
+  z-index: 2;
+}
+
+.main-nav.logged-in .dropdown-menu:after {
+  z-index: 1;
+  color: #C1CCD7;
+  border-bottom: 11px dashed;
+  border-right: 11px solid transparent;
+  border-left: 11px solid transparent;
+  margin-top: -1px;
+}
+
+.main-nav.logged-in .dropdown-menu a {
+  padding: 20px 20px;
+  border-bottom: 1px solid #C1CCD7;
+}
+
+.main-nav.logged-in .dropdown-menu a:hover {
+  font-weight: bold;
 }
 
 .btn, .btn_primary, .btn_secondary {
