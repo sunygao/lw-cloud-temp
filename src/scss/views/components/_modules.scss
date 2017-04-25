@@ -1,0 +1,25 @@
+.module {
+	background: $white;
+	border: 1px solid $grey-border;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.10);
+	border-radius: 6px;
+
+	header {
+		padding: 17px 30px;
+		height: 60px;
+		border-bottom: 1px solid $grey-border;
+
+		.lead {
+			font-weight: 500;
+		}
+
+		[class^="btn_"] {
+			margin: 0;
+		    position: absolute;
+		    top: 50%;
+		    right: 30px;
+		    transform: translateY(-50%);
+		}
+	}
+}
+

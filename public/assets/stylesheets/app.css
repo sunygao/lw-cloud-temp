@@ -7916,7 +7916,6 @@ p {
 
 p.lead {
   font-size: 20px;
-  font-weight: 300;
   line-height: 26px;
 }
 
@@ -8062,6 +8061,35 @@ body.no-scroll {
 .btn_secondary:focus, .btn_secondary:hover {
   color: #149398;
   border-color: #149398;
+}
+
+.module {
+  background: #fff;
+  border: 1px solid #C1CCD7;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.module header {
+  padding: 17px 30px;
+  height: 60px;
+  border-bottom: 1px solid #C1CCD7;
+}
+
+.module header .lead {
+  font-weight: 500;
+}
+
+.module header [class^="btn_"] {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .style-guide article {
