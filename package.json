@@ -26,6 +26,7 @@
     "gulp-iconfont-css": "0.0.9",
     "gulp-plumber": "^1.0.1",
     "gulp-sass": "2.0.0",
+    "gulp-sourcemaps": "^2.6.0",
     "gulp-util": "3.0.4",
     "install": "^0.8.8",
     "lodash": "^4.13.1",

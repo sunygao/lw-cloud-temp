@@ -22,7 +22,8 @@ var gulp  = require('gulp'),
   autoprefixer = require('gulp-autoprefixer'),
   runSequence = require('run-sequence'),
   fileinclude = require('gulp-file-include'),
-  markdown = require('markdown');
+  markdown = require('markdown'),
+  sourcemaps = require('gulp-sourcemaps');;
 
 /*
  * Set environment to prod
@@ -55,18 +56,19 @@ gulp.task('sass', function() {
 
   //dev config
   cssPath = config.development.css.path,
-  options.outputStyle = 'expanded',
-  sourcemap = true;
+  options.outputStyle = 'expanded';
   
   // if for deployment
   if(gutil.env == 'prod') {
     cssPath = config.deploy.css.path,
     options.outputStyle = "compressed";
-    options.sourcemap = false;
   }
+
   gulp.src(config.src.sass.files)
     .pipe( plumber())
+    .pipe(sourcemaps.init())
     .pipe(sass(options).on('error', sass.logError))
+    .pipe(sourcemaps.write())
     .pipe(autoprefixer({
         browsers: [
           "Android 2.3",
@@ -80,6 +82,7 @@ gulp.task('sass', function() {
         ],
         cascade: false
     }))
+    
     .pipe(gulp.dest(cssPath));
 });
 
