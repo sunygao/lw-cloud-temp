@@ -1,0 +1,127 @@
+.main-nav {
+	&.logged-in {
+		background: #fff;
+		height: $nav-height;
+		border-bottom: 1px solid $grey-border;
+
+		.nav-left {
+			float: left;
+		}
+
+		h1 {
+			width: 192px;
+			margin-top: 34px;
+
+			img {
+				display: block;
+				width: 100%;
+			}
+		}
+
+		.nav-right {
+			float: right;
+			display: flex;
+			width: 50%;
+			max-width: 350px;
+			margin-top: 28px;
+		}
+
+		.input-group {
+			width: 150px;
+
+			.icon {
+				position: absolute;
+				z-index: 2;
+				font-size: 17px;
+				top: 15px;
+				left: 14px;
+			}
+
+			input {
+				border-radius: 2px;
+				padding-left: 45px;
+				z-index: 1;
+				height: 45px;
+			}
+		}
+
+		.divider {
+			margin: 0 30px;
+			background: $grey-border;
+			width: 1px;
+			display: block;
+		}
+
+		.user {
+			button {
+				border: 0;
+				padding: 0;
+				background: transparent;
+				display: block;
+			}
+			.avatar {
+				display: inline-block;
+				width: 45px;
+				height: 45px;
+				border-radius: 100%;
+				overflow: hidden;
+				vertical-align: middle;
+				margin-right: 20px;
+				img {
+					display: block;
+					width: 100%;
+				}
+			}
+
+			.username {
+				display: inline-block;
+				vertical-align: middle;
+			}
+		}
+
+		.dropdown-menu {
+			//display: block;
+			padding: 0;
+			border-color: $grey-border;
+			margin-top: 15px;
+
+			&:before,
+			&:after {
+				content: '';
+				display: block;
+			    width: 0;
+			    height: 0;
+			    color: #fff;
+			    position: absolute;
+			    border-bottom: 10px dashed;
+			    border-right: 10px solid transparent;
+			    border-left: 10px solid transparent;
+			    top: -10px;
+			    left: 50%;
+			    transform: translateX(-50%);
+			}
+
+			&:before {
+				z-index: 2;
+			}
+
+			&:after {
+				z-index: 1;
+				color: $grey-border;
+				border-bottom: 11px dashed;
+			    border-right: 11px solid transparent;
+			    border-left: 11px solid transparent;
+			    margin-top: -1px;
+			}
+
+			a {
+				padding: 20px 20px;
+				border-bottom: 1px solid $grey-border;
+
+				&:hover {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
