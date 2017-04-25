@@ -8101,6 +8101,7 @@ body.no-scroll {
 
 .main-nav.logged-in .nav-left {
   float: left;
+  margin-left: 15px;
 }
 
 .main-nav.logged-in h1 {
