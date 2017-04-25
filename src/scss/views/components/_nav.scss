@@ -1,7 +1,28 @@
 .main-nav {
+	//--- Logged out nav
+	position: fixed;
+	width: 100%;
+	height: $nav-height;
+	z-index: $z-main-nav;
+
+	h1 {
+		width: 143px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		margin: 0;
+
+		img {
+			display: block;
+			width: 100%;
+		}
+	}
+
+	//--- Logged in nav
 	&.logged-in {
-		background: #fff;
-		height: $nav-height;
+		background: rgba(255, 255, 255, 0.95);
+		
 		border-bottom: 1px solid $grey-border;
 
 		.nav-left {
@@ -12,11 +33,10 @@
 		h1 {
 			width: 192px;
 			margin-top: 34px;
-
-			img {
-				display: block;
-				width: 100%;
-			}
+			position: static;
+			top: 0;
+			left: 0;
+			transform: translate(0%, 00%);
 		}
 
 		.nav-right {
