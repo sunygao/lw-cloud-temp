@@ -5,3 +5,5 @@ dist/
 public/*.html
 public/**/*.html
 public/**/**/*.html
+public/stylesheets
+public/javascripts
